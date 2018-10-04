@@ -1,0 +1,39 @@
+; I N F O
+; ------------------------------------------------------------
+; File:   world.mcf
+; Source: (sample data set)
+
+
+; R E F E R E N C E 
+; ------------------------------------------------------------
+; 3 Points must be defined to calibrate a Map
+; Parameters:
+;   #       = index of the point (1 to 3)
+;   x,y     = image coordinates
+;   lat,lon = world coordinates
+; Syntax: 
+;   # = <x>, <y>, <lon>, <lat>
+
+[REFERENCE]
+1 =    0,     0,  -180.0,  90.0
+2 = 1764,  1045,   180.0, -90.0
+3 = 1764,     0,   180.0,  90.0
+
+
+; M A R K E R
+; ------------------------------------------------------------
+; You can add points (image or world coord) to the map  
+; Parameters:
+;   num     = number of markers that follow
+;   #       = index of the point (1 to num)
+;   type    = c for world or i image coordinates
+;   x,y     = image coordinates
+;   lat,lon = world coordinates
+;   text    = quoted text decription to the marker (optional)
+; Syntax: 
+;   Count = <num>
+;   #     = <type>, <x|lon>, <y|lat>[, <text>]
+
+[MARKER]
+Count = 1
+1 = c, 8.56525, 47.28519444, "µ-blox ag"

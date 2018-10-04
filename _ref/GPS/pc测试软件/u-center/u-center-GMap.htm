@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+    <!-- this file was created using the export function of u-center by u-blox AG, Switzerland. -->
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+        <title>u-center generated Google Map</title>
+        <style type="text/css">
+            v\:* {
+                behavior:url(#default#VML);
+            }
+        </style>
+        <script type="text/javascript" src="http://maps.google.com/maps?v=2&file=api"></script>
+        <script type="text/javascript">
+        //<![CDATA[
+            function Format(v)
+            {
+                var s = "";
+                if (v < 0) { v = -v; s = "-"; }
+                var i = Math.floor(v);
+                var f = Math.floor((v-i)*1e6);
+                var fs = f.toString();
+                while (fs.length < 6)
+                    fs = "0" + fs;
+                return s + i.toString() + "." + fs;
+            }
+            function MouseMove(p)
+            {
+                window.status = "Lat: " + Format(p.lat()) + " Lon: " + Format(p.lng());
+            }
+            function Load()
+            {
+                if (GBrowserIsCompatible())
+                {
+                    var i;
+                    var j;
+                    _mSvgEnabled = true;
+                    _mSvgForced = true;
+
+                    // create map
+                    GDraggableObject.setDraggableCursor('crosshair');
+                    var map = new GMap2(document.getElementById("div"));
+                    GEvent.addListener(map, 'mousemove', MouseMove);
+                    map.addControl(new GLargeMapControl());
+                    map.addControl(new GScaleControl());
+                    map.addControl(new GMapTypeControl());
+                    map.addControl(new GOverviewMapControl());
+
+                    // track is a two dimensional array with lat/long points
+                    var t = [
+                     [  new GLatLng( 25.251620,110.317454),
+                        new GLatLng( 25.251619,110.317455),
+                        new GLatLng( 25.251618,110.317457),
+                        new GLatLng( 25.251617,110.317458),
+                        new GLatLng( 25.251616,110.317458),
+                        new GLatLng( 25.251614,110.317460),
+                        new GLatLng( 25.251613,110.317461),
+                        new GLatLng( 25.251611,110.317462),
+                        new GLatLng( 25.251609,110.317463),
+                        new GLatLng( 25.251607,110.317463),
+                        new GLatLng( 25.251604,110.317464),
+                        new GLatLng( 25.251602,110.317466),
+                        new GLatLng( 25.251599,110.317466),
+                        new GLatLng( 25.251596,110.317465),
+                        new GLatLng( 25.251594,110.317466),
+                        new GLatLng( 25.251593,110.317467),
+                        new GLatLng( 25.251591,110.317469),
+                        new GLatLng( 25.251589,110.317470),
+                        new GLatLng( 25.251588,110.317470),
+                        new GLatLng( 25.251587,110.317471),
+                        new GLatLng( 25.251586,110.317471),
+                        new GLatLng( 25.251586,110.317472),
+                        new GLatLng( 25.251585,110.317471),
+                        new GLatLng( 25.251585,110.317473),
+                        new GLatLng( 25.251586,110.317473),
+                        new GLatLng( 25.251587,110.317473),
+                        new GLatLng( 25.251588,110.317473),
+                        new GLatLng( 25.251589,110.317475),
+                        new GLatLng( 25.251590,110.317476),
+                        new GLatLng( 25.251592,110.317476),
+                        new GLatLng( 25.251593,110.317477),
+                        new GLatLng( 25.251594,110.317476),
+                        new GLatLng( 25.251595,110.317475),
+                        new GLatLng( 25.251596,110.317475),
+                        new GLatLng( 25.251597,110.317475),
+                        new GLatLng( 25.251598,110.317474),
+                        new GLatLng( 25.251600,110.317474),
+                        new GLatLng( 25.251601,110.317476),
+                        new GLatLng( 25.251602,110.317477),
+                        new GLatLng( 25.251603,110.317479),
+                        new GLatLng( 25.251605,110.317480),
+                        new GLatLng( 25.251606,110.317481),
+                        new GLatLng( 25.251607,110.317483),
+                        new GLatLng( 25.251609,110.317485),
+                        new GLatLng( 25.251609,110.317486),
+                        new GLatLng( 25.251610,110.317487),
+                        new GLatLng( 25.251611,110.317490),
+                        new GLatLng( 25.251611,110.317492),
+                        new GLatLng( 25.251611,110.317494),
+                        new GLatLng( 25.251611,110.317496),
+                        new GLatLng( 25.251611,110.317497),
+                        new GLatLng( 25.251611,110.317500),
+                        new GLatLng( 25.251610,110.317503),
+                        new GLatLng( 25.251611,110.317506),
+                        new GLatLng( 25.251610,110.317508),
+                        new GLatLng( 25.251609,110.317511),
+                        new GLatLng( 25.251609,110.317513),
+                        new GLatLng( 25.251609,110.317515),
+                        new GLatLng( 25.251608,110.317517),
+                        new GLatLng( 25.251606,110.317519),
+                        new GLatLng( 25.251605,110.317521),
+                        new GLatLng( 25.251603,110.317522),
+                        new GLatLng( 25.251602,110.317524),
+                        new GLatLng( 25.251600,110.317526),
+                        new GLatLng( 25.251599,110.317528),
+                        new GLatLng( 25.251597,110.317530),
+                        new GLatLng( 25.251596,110.317532),
+                        new GLatLng( 25.251595,110.317534),
+                        new GLatLng( 25.251594,110.317537),
+                        new GLatLng( 25.251594,110.317539),
+                        new GLatLng( 25.251593,110.317540),
+                        new GLatLng( 25.251593,110.317542),
+                        new GLatLng( 25.251592,110.317543),
+                        new GLatLng( 25.251592,110.317546),
+                        new GLatLng( 25.251591,110.317546),
+                        new GLatLng( 25.251592,110.317547),
+                        new GLatLng( 25.251591,110.317547),
+                        new GLatLng( 25.251591,110.317548),
+                        new GLatLng( 25.251591,110.317548),
+                        new GLatLng( 25.251590,110.317548),
+                        new GLatLng( 25.251590,110.317547),
+                        new GLatLng( 25.251590,110.317546),
+                        new GLatLng( 25.251590,110.317547),
+                        new GLatLng( 25.251590,110.317547),
+                        new GLatLng( 25.251589,110.317546),
+                        new GLatLng( 25.251589,110.317546),
+                        new GLatLng( 25.251589,110.317546),
+                        new GLatLng( 25.251589,110.317545),
+                        new GLatLng( 25.251590,110.317546),
+                        new GLatLng( 25.251590,110.317545),
+                        new GLatLng( 25.251590,110.317545),
+                        new GLatLng( 25.251590,110.317545),
+                        new GLatLng( 25.251590,110.317546),
+                        new GLatLng( 25.251590,110.317546),
+                        new GLatLng( 25.251590,110.317546),
+                        new GLatLng( 25.251590,110.317547),
+                        new GLatLng( 25.251590,110.317548),
+                        new GLatLng( 25.251589,110.317549),
+                        new GLatLng( 25.251589,110.317550),
+                        new GLatLng( 25.251589,110.317551),
+                        new GLatLng( 25.251588,110.317550),
+                        new GLatLng( 25.251588,110.317550),
+                        new GLatLng( 25.251588,110.317550),
+                        new GLatLng( 25.251587,110.317550),
+                        new GLatLng( 25.251586,110.317549),
+                        new GLatLng( 25.251586,110.317548),
+                        new GLatLng( 25.251585,110.317548),
+                        new GLatLng( 25.251584,110.317548),
+                        new GLatLng( 25.251583,110.317548),
+                        new GLatLng( 25.251583,110.317548),
+                        new GLatLng( 25.251582,110.317548),
+                        new GLatLng( 25.251582,110.317549),
+                        new GLatLng( 25.251582,110.317549),
+                        new GLatLng( 25.251582,110.317549),
+                        new GLatLng( 25.251582,110.317551),
+                        new GLatLng( 25.251581,110.317551),
+                        new GLatLng( 25.251581,110.317551),
+                        new GLatLng( 25.251581,110.317552),
+                        new GLatLng( 25.251580,110.317551),
+                        new GLatLng( 25.251580,110.317551),
+                        new GLatLng( 25.251580,110.317552),
+                        new GLatLng( 25.251580,110.317552),
+                        new GLatLng( 25.251580,110.317554),
+                        new GLatLng( 25.251579,110.317554),
+                        new GLatLng( 25.251579,110.317555),
+                        new GLatLng( 25.251579,110.317556),
+                        new GLatLng( 25.251579,110.317556),
+                        new GLatLng( 25.251578,110.317557),
+                        new GLatLng( 25.251576,110.317557),
+                        new GLatLng( 25.251576,110.317557),
+                        new GLatLng( 25.251574,110.317557),
+                        new GLatLng( 25.251573,110.317557),
+                        new GLatLng( 25.251573,110.317557),
+                        new GLatLng( 25.251572,110.317557),
+                        new GLatLng( 25.251571,110.317558),
+                        new GLatLng( 25.251571,110.317557),
+                        new GLatLng( 25.251570,110.317557),
+                        new GLatLng( 25.251570,110.317557),
+                        new GLatLng( 25.251569,110.317557),
+                        new GLatLng( 25.251568,110.317556),
+                        new GLatLng( 25.251567,110.317555),
+                        new GLatLng( 25.251566,110.317555),
+                        new GLatLng( 25.251565,110.317555),
+                        new GLatLng( 25.251565,110.317557),
+                        new GLatLng( 25.251565,110.317557),
+                        new GLatLng( 25.251565,110.317557),
+                        new GLatLng( 25.251564,110.317558),
+                        new GLatLng( 25.251564,110.317558),
+                        new GLatLng( 25.251563,110.317557),
+                        new GLatLng( 25.251562,110.317557),
+                        new GLatLng( 25.251562,110.317557),
+                        new GLatLng( 25.251562,110.317557),
+                        new GLatLng( 25.251562,110.317557) ]
+                    ];
+
+                    // find bounding box
+                    var b = new GLatLngBounds;
+                    for (i = 0; i < t.length; i ++)
+                        for (j = 0; j < t[i].length; j ++)
+                            b.extend(t[i][j]);
+
+                    // create map fitted to the track
+                    var ne = b.getNorthEast();
+                    var sw = b.getSouthWest();
+                    var c = new GLatLng((ne.lat() + sw.lat())/2, (ne.lng() + sw.lng())/2);
+                    var z = map.getBoundsZoomLevel(b);
+                    map.setCenter(c, z, G_HYBRID_MAP);
+
+                    // draw the map
+                    i = t.length-1;
+                    map.addOverlay(new GMarker(t[i][t[i].length-1]));
+                    while (i >= 0)
+                    {
+                        map.addOverlay(new GPolyline(t[i],"#FF00FF",3,0.6));
+                        i --;
+                    }
+                    map.addOverlay(new GMarker(t[0][0]));
+                }
+            }
+        //]]>
+        </script>
+    </head>
+    <body onload="Load();" onunload="GUnload();" style="margin:0px 0px 0px 0px; overflow:hidden;">
+        <div id="div"  style="position:absolute; top:0px; left:0px; width:100%; height:100%;"></div>
+    </body>
+</html>
