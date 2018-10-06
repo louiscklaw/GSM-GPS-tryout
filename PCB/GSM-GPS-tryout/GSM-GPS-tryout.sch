@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -25,5 +25,11 @@ S 2700 850  1400 950
 U 5BB83F82
 F0 "SIM800C" 50
 F1 "SIM800C.sch" 50
+$EndSheet
+$Sheet
+S 4250 850  1550 950 
+U 5BBADC15
+F0 "ublox-gps" 50
+F1 "ublox-gps.sch" 50
 $EndSheet
 $EndSCHEMATC

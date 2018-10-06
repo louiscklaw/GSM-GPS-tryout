@@ -1250,17 +1250,6 @@ Connection ~ 14000 7100
 Wire Wire Line
 	14000 7100 14200 7100
 $Comp
-L Connector_Generic:Conn_01x05 J12
-U 1 1 5C0E8B34
-P 15000 5450
-F 0 "J12" H 14919 5025 50  0000 C CNN
-F 1 "TO_DTE (+3V3)" H 14919 5116 50  0000 C CNN
-F 2 "" H 15000 5450 50  0001 C CNN
-F 3 "~" H 15000 5450 50  0001 C CNN
-	1    15000 5450
-	1    0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR0153
 U 1 1 5C0E904E
 P 13950 6350
@@ -1272,10 +1261,10 @@ F 3 "" H 13950 6350 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 13450 5450 0    50   ~ 0
-USB_DP
-Text Label 13450 5350 0    50   ~ 0
 USB_DN
-Text Label 13450 5250 0    50   ~ 0
+Text Label 13450 5350 0    50   ~ 0
+USB_DP
+Text Label 13450 5150 0    50   ~ 0
 USB_VBUS
 $Comp
 L power:+5V #PWR0154
@@ -1289,9 +1278,7 @@ F 3 "" H 14250 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14250 4450 14250 4750
-Wire Wire Line
-	14250 5250 14800 5250
+	14250 5150 14800 5150
 $Comp
 L Device:C C16
 U 1 1 5C1072AD
@@ -1306,8 +1293,6 @@ $EndComp
 Wire Wire Line
 	14300 4750 14250 4750
 Connection ~ 14250 4750
-Wire Wire Line
-	14250 4750 14250 5250
 $Comp
 L power:GND #PWR0155
 U 1 1 5C12DEE4
@@ -1321,8 +1306,6 @@ F 3 "" H 14800 4750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	14800 4750 14600 4750
-Text Label 13450 5550 0    50   ~ 0
-USB_ID
 Text Label 10100 3000 3    50   ~ 0
 USB_DN
 Text Label 10200 3000 3    50   ~ 0
@@ -1336,10 +1319,8 @@ USB_VBUS
 Wire Wire Line
 	10300 3000 10300 3800
 Wire Wire Line
-	13450 5250 14250 5250
-Connection ~ 14250 5250
-Wire Wire Line
-	13450 5550 14800 5550
+	13450 5150 14250 5150
+Connection ~ 14250 5150
 Text Label 13500 6250 0    50   ~ 0
 USB_GND
 $Comp
@@ -1374,11 +1355,7 @@ Wire Wire Line
 	14200 5450 14250 5450
 Wire Wire Line
 	13950 6250 13950 6350
-Wire Wire Line
-	14700 5650 14800 5650
 Connection ~ 13950 6250
-Wire Wire Line
-	14700 5650 14700 6250
 $Comp
 L Device:D_Zener D7
 U 1 1 5C2243E0
@@ -1409,8 +1386,6 @@ Connection ~ 14250 6250
 Wire Wire Line
 	14600 6000 14600 6250
 Connection ~ 14600 6250
-Wire Wire Line
-	14600 6250 14700 6250
 Wire Wire Line
 	14250 5700 14250 5450
 Connection ~ 14250 5450
@@ -1675,4 +1650,33 @@ NoConn ~ 8950 5100
 NoConn ~ 8950 4700
 Text Notes 1900 9750 0    50   ~ 0
 SIM\nPRESENT
+$Comp
+L Connector:USB_B_Mini J12
+U 1 1 5C0F2B62
+P 15100 5350
+F 0 "J12" H 14871 5341 50  0000 R CNN
+F 1 "USB_B_Mini" H 14871 5250 50  0000 R CNN
+F 2 "" H 15250 5300 50  0001 C CNN
+F 3 "~" H 15250 5300 50  0001 C CNN
+	1    15100 5350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14250 4750 14250 5150
+Wire Wire Line
+	15100 5750 15100 5950
+Wire Wire Line
+	14250 4650 14250 4750
+Wire Wire Line
+	14250 4450 14250 4750
+Wire Wire Line
+	15200 5750 15200 5950
+Wire Wire Line
+	15200 5950 15100 5950
+Connection ~ 15100 5950
+Wire Wire Line
+	15100 5950 15100 6250
+Wire Wire Line
+	14600 6250 15100 6250
+NoConn ~ 14800 5550
 $EndSCHEMATC
