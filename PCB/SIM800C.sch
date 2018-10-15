@@ -900,33 +900,20 @@ Wire Wire Line
 Wire Wire Line
 	15000 8250 15000 8000
 Connection ~ 14550 8250
-$Comp
-L taobao-components:USB_PCB U12
-U 1 1 5BD538D1
-P 14850 6050
-F 0 "U12" H 15177 6121 50  0000 L CNN
-F 1 "USB_PCB" H 15177 6030 50  0000 L CNN
-F 2 "footprint-lib:usb-PCB" H 14850 6100 50  0001 C CNN
-F 3 "" H 14850 6100 50  0001 C CNN
-	1    14850 6050
-	1    0    0    -1  
-$EndComp
-Text Label 13900 5900 0    50   ~ 0
+Text Label 14050 5900 0    50   ~ 0
 USB_VBUS
 Wire Wire Line
-	13900 5900 14500 5900
-Text Label 13900 6100 0    50   ~ 0
+	14050 5900 14650 5900
+Text Label 14050 6100 0    50   ~ 0
 DP+
 Wire Wire Line
-	13900 6100 14500 6100
-Text Label 13900 6000 0    50   ~ 0
+	14050 6100 14650 6100
+Text Label 14050 6200 0    50   ~ 0
 DP-
 Wire Wire Line
-	13900 6000 14500 6000
-Text Label 13900 6200 0    50   ~ 0
+	14050 6200 14650 6200
+Text Label 14200 6550 0    50   ~ 0
 GND
-Wire Wire Line
-	13900 6200 14500 6200
 $Comp
 L taobao-tc:TC107,6V C13
 U 1 1 5BC4E675
@@ -1202,4 +1189,24 @@ F 3 "~" V 13500 7900 50  0001 C CNN
 	1    13500 7900
 	0    1    1    0   
 $EndComp
+$Comp
+L Connector:USB_B_Micro J13
+U 1 1 5BC7E777
+P 14950 6100
+F 0 "J13" H 14720 6091 50  0000 R CNN
+F 1 "SIM800_DEBUG" H 14720 6000 50  0000 R CNN
+F 2 "w_conn_pc:conn_usb_B_micro_smd" H 15100 6050 50  0001 C CNN
+F 3 "~" H 15100 6050 50  0001 C CNN
+	1    14950 6100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14950 6550 14950 6500
+Wire Wire Line
+	14200 6550 14950 6550
+Wire Wire Line
+	14950 6550 15050 6550
+Wire Wire Line
+	15050 6550 15050 6500
+Connection ~ 14950 6550
 $EndSCHEMATC
