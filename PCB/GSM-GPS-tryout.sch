@@ -68,12 +68,12 @@ F 3 "" H 1000 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-r:R102 R?
+L taobao-r:R102 R1
 U 1 1 5BC258E4
 P 1000 4150
-F 0 "R?" H 1100 4200 50  0000 L CNN
+F 0 "R1" H 1100 4200 50  0000 L CNN
 F 1 "R102" H 1100 4150 50  0000 L CNN
-F 2 "" H 1000 4150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1000 4150 50  0001 C CNN
 F 3 "~" H 1000 4150 50  0001 C CNN
 	1    1000 4150
 	1    0    0    -1  
@@ -83,12 +83,12 @@ Wire Wire Line
 Wire Wire Line
 	1000 4250 1000 4500
 $Comp
-L Connector:Jack-DC J?
+L Connector:Jack-DC J7
 U 1 1 5BD21882
 P 1650 2950
-F 0 "J?" H 1705 3275 50  0000 C CNN
+F 0 "J7" H 1705 3275 50  0000 C CNN
 F 1 "Jack-DC" H 1705 3184 50  0000 C CNN
-F 2 "" H 1700 2910 50  0001 C CNN
+F 2 "footprint-lib:CUI-PJ-102A_dc-barrel-jack" H 1700 2910 50  0001 C CNN
 F 3 "~" H 1700 2910 50  0001 C CNN
 	1    1650 2950
 	1    0    0    -1  
@@ -152,34 +152,34 @@ Connection ~ 2350 2900
 Wire Wire Line
 	2350 2900 2350 3300
 $Comp
-L Device:Jumper_NO_Small JP?
+L Device:Jumper_NO_Small JP9
 U 1 1 5BD232BF
 P 2800 2900
-F 0 "JP?" H 2800 3085 50  0000 C CNN
+F 0 "JP9" H 2800 3085 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 2800 2994 50  0000 C CNN
-F 2 "" H 2800 2900 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2800 2900 50  0001 C CNN
 F 3 "~" H 2800 2900 50  0001 C CNN
 	1    2800 2900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP?
+L Device:Jumper_NO_Small JP15
 U 1 1 5BD23305
 P 2800 3300
-F 0 "JP?" H 2800 3485 50  0000 C CNN
+F 0 "JP15" H 2800 3485 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 2800 3394 50  0000 C CNN
-F 2 "" H 2800 3300 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2800 3300 50  0001 C CNN
 F 3 "~" H 2800 3300 50  0001 C CNN
 	1    2800 3300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP?
+L Device:Jumper_NO_Small JP16
 U 1 1 5BD2332B
 P 2800 3750
-F 0 "JP?" H 2800 3935 50  0000 C CNN
+F 0 "JP16" H 2800 3935 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 2800 3844 50  0000 C CNN
-F 2 "" H 2800 3750 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2800 3750 50  0001 C CNN
 F 3 "~" H 2800 3750 50  0001 C CNN
 	1    2800 3750
 	1    0    0    -1  
