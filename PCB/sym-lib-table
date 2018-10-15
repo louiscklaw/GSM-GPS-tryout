@@ -1,6 +1,2 @@
 (sym_lib_table
-  (lib (name pin_head)(type Legacy)(uri /home/logic/_del/pin_head.lib)(options "")(descr ""))
-  (lib (name zd)(type Legacy)(uri /home/logic/_del/zd.lib)(options "")(descr ""))
-  (lib (name d)(type Legacy)(uri /home/logic/_del/d.lib)(options "")(descr ""))
-  (lib (name sd)(type Legacy)(uri /home/logic/_del/sd.lib)(options "")(descr ""))
 )

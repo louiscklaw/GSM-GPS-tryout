@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 12)
+    (drawings 5)
     (tracks 3)
     (zones 0)
     (modules 105)
@@ -351,7 +351,7 @@
     (add_net VIN_STM32)
   )
 
-  (module MountingHole:MountingHole_3.2mm_M3_DIN965 locked (layer F.Cu) (tedit 56D1B4CB) (tstamp 5BD2E8FF)
+  (module MountingHole:MountingHole_3.2mm_M3_DIN965 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C420916)
     (at 10 10)
     (descr "Mounting Hole 3.2mm, no annular, M3, DIN965")
     (tags "mounting hole 3.2mm no annular m3 din965")
@@ -370,7 +370,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (module MountingHole:MountingHole_3.2mm_M3_DIN965 locked (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C4209BF)
+  (module MountingHole:MountingHole_3.2mm_M3_DIN965 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C4209BF)
     (at 90 10)
     (descr "Mounting Hole 3.2mm, no annular, M3, DIN965")
     (tags "mounting hole 3.2mm no annular m3 din965")
@@ -389,7 +389,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (module MountingHole:MountingHole_3.2mm_M3_DIN965 locked (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C420A66)
+  (module MountingHole:MountingHole_3.2mm_M3_DIN965 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C420A66)
     (at 10 90)
     (descr "Mounting Hole 3.2mm, no annular, M3, DIN965")
     (tags "mounting hole 3.2mm no annular m3 din965")
@@ -408,7 +408,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (module MountingHole:MountingHole_3.2mm_M3_DIN965 locked (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C420B0D)
+  (module MountingHole:MountingHole_3.2mm_M3_DIN965 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5C420B0D)
     (at 90 90)
     (descr "Mounting Hole 3.2mm, no annular, M3, DIN965")
     (tags "mounting hole 3.2mm no annular m3 din965")
@@ -4471,13 +4471,6 @@
     )
   )
 
-  (gr_arc (start 90 90) (end 90 95) (angle -90) (layer Edge.Cuts) (width 0.15))
-  (gr_arc (start 10 90) (end 5 90) (angle -90) (layer Edge.Cuts) (width 0.15))
-  (gr_arc (start 10 10) (end 10 5) (angle -90) (layer Edge.Cuts) (width 0.15))
-  (gr_arc (start 90 10) (end 95 10) (angle -90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 95 90) (end 95 10) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 10 95) (end 90 95) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 5 10) (end 5 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 10 5) (end 90 5) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 100 0) (end 0 0) (layer Dwgs.User) (width 0.2))
   (gr_line (start 100 0) (end 100 100) (layer Dwgs.User) (width 0.2))
