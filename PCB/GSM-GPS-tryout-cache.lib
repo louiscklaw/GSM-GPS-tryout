@@ -685,6 +685,28 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# taobao-components_MBR120
+#
+DEF taobao-components_MBR120 D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "taobao-components_MBR120" 0 -100 50 H V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+ALIAS SB120
+$FPLIST
+ Diode_SMD:D_SOD-123F
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 3 0 1 0 -30 -40 -20 -40 -20 -30 N
+P 3 0 1 0 -30 40 -40 40 -40 30 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # taobao-components_MCP73831
 #
 DEF taobao-components_MCP73831 U 0 40 Y Y 1 F N
