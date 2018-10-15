@@ -1,122 +1,43 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# C104-taobao-c
+# CP_100uf-taobao-cp
 #
-DEF C104-taobao-c C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "C104-taobao-c" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H I C CNN
+DEF CP_100uf-taobao-cp C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CP_100uf-taobao-cp" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- C_0806*
- C_0603*
- C_*
+ CP_*
 $ENDFPLIST
 DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
+S -60 -12 60 -27 0 1 0 F
+S -60 27 60 12 0 1 0 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 73 D 50 50 1 1 P
+X ~ 2 0 -100 73 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C105-taobao-c
+# CP_220uf-taobao-cp
 #
-DEF C105-taobao-c C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "C105-taobao-c" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H I C CNN
+DEF CP_220uf-taobao-cp C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "CP_220uf-taobao-cp" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- C_0806*
- C_0603*
- C_*
+ CP_*
 $ENDFPLIST
 DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# C106-taobao-c
-#
-DEF C106-taobao-c C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "C106-taobao-c" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_0806*
- C_0603*
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# C22pf-taobao-c
-#
-DEF C22pf-taobao-c C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "C22pf-taobao-c" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_0806*
- C_0603*
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# C33pf-taobao-c
-#
-DEF C33pf-taobao-c C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "C33pf-taobao-c" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_0806*
- C_0603*
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# R102-taobao-r
-#
-DEF R102-taobao-r R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "R102-taobao-r" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
- Resistor_SMD:R_0805_*
- Resistor_SMD:R_0603_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
+S -60 -12 60 -27 0 1 0 F
+S -60 27 60 12 0 1 0 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 73 D 50 50 1 1 P
+X ~ 2 0 -100 73 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
