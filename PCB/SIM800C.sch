@@ -775,7 +775,7 @@ Wire Wire Line
 	13700 7600 14150 7600
 Connection ~ 13700 7600
 $Comp
-L taobao-cp:CP_220uf C?
+L GSM-GPS-tryout-rescue:CP_220uf-taobao-cp C?
 U 1 1 5BC8FB97
 P 14700 7850
 F 0 "C?" H 14800 7900 50  0000 L CNN
@@ -857,7 +857,7 @@ $EndComp
 Wire Wire Line
 	13400 4200 13650 4200
 $Comp
-L taobao-cp:CP_100uf C?
+L GSM-GPS-tryout-rescue:CP_100uf-taobao-cp C?
 U 1 1 5BD52440
 P 11500 2950
 F 0 "C?" V 11250 2950 50  0000 C CNN
