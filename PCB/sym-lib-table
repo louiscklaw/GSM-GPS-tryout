@@ -1,3 +1,2 @@
 (sym_lib_table
-  (lib (name GSM-GPS-tryout-rescue)(type Legacy)(uri ${KIPRJMOD}/GSM-GPS-tryout-rescue.lib)(options "")(descr ""))
 )
